@@ -1,4 +1,6 @@
 // compress: true
+
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:400,700);
 @import url('//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css');
 @import url('var.less');
 
@@ -6,17 +8,29 @@
 
 #header-site{
     background: @sombre;
-    padding-top : 1px;
+    padding : 1em 0;
     color : @claire;
+	font-family: amatic sc;
+	
     h1{
-        
-    }
-    a{
-        color: @claire;
-        text-decoration: none;
-    }
+        margin: 0;
+		font-size: 4em;
     
-    .slogan{
-        margin: 1em 2em;
-    }
+		a{
+			color: @claire;
+			text-decoration: none;
+		}
+		.slogan{
+			font-size: .4em;
+		}
+	}
+    
+
 }
+
+.wrap{
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
